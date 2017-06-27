@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>cy_wk_lnk</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>wk_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Workout</string>
+			<key>col_placeholder</key>
+			<string>Tap in to select Workout</string>
+			<key>col_editable</key>
+			<false/>
+			<key>target</key>
+			<string>workout</string>
+			<key>target_title</key>
+			<string>Workouts</string>
+			<key>target_key</key>
+			<string>wk_id</string>
+			<key>target_text</key>
+			<string>wk_name</string>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>dw_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Day of Week</string>
+			<key>col_placeholder</key>
+			<string>Tap in to select Day of Week</string>
+			<key>col_editable</key>
+			<false/>
+			<key>target</key>
+			<string>daysofweek</string>
+			<key>target_title</key>
+			<string>Days of Week</string>
+			<key>target_key</key>
+			<string>dw_id</string>
+			<key>target_text</key>
+			<string>dw_text</string>
+			<key>target_condition</key>
+			<string>dw_id</string>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

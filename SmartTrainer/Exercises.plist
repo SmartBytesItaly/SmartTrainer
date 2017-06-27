@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>esercizi</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>ex_name</string>
+			<key>col_type</key>
+			<string>text</string>
+			<key>col_label</key>
+			<string>Exercise name</string>
+			<key>col_placeholder</key>
+			<string>insert exercise name</string>
+			<key>max_char</key>
+			<integer>250</integer>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>ex_max_one</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Max One Rep</string>
+			<key>col_placeholder</key>
+			<string>insert max one rep</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>500</integer>
+			<key>step_value</key>
+			<real>0.5</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>ex_note</string>
+			<key>col_type</key>
+			<string>text</string>
+			<key>col_label</key>
+			<string>Exercise notes</string>
+			<key>col_placeholder</key>
+			<string>insert notes</string>
+			<key>max_char</key>
+			<integer>4000</integer>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>gr_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Exercise group</string>
+			<key>col_placeholder</key>
+			<string>Tap in to select group</string>
+			<key>col_editable</key>
+			<true/>
+			<key>target</key>
+			<string>gruppi</string>
+			<key>target_title</key>
+			<string>Groups</string>
+			<key>target_new_title</key>
+			<string>New Group</string>
+			<key>target_plist</key>
+			<string>Groups.plist</string>
+			<key>target_update</key>
+			<string>esercizi</string>
+			<key>target_key</key>
+			<string>gr_id</string>
+			<key>target_text</key>
+			<string>gr_name</string>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>eq_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Exercise Bar</string>
+			<key>col_placeholder</key>
+			<string>Tap in to select Bar</string>
+			<key>col_editable</key>
+			<true/>
+			<key>target</key>
+			<string>equipment</string>
+			<key>target_title</key>
+			<string>Bars</string>
+			<key>target_new_title</key>
+			<string>New Bar</string>
+			<key>target_plist</key>
+			<string>Equipment.plist</string>
+			<key>target_update</key>
+			<string>esercizi</string>
+			<key>target_key</key>
+			<string>eq_id</string>
+			<key>target_text</key>
+			<string>eq_name</string>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>ex_image1</string>
+			<key>col_type</key>
+			<string>image</string>
+			<key>col_label</key>
+			<string>Exercise Image 1</string>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>ex_image2</string>
+			<key>col_type</key>
+			<string>image</string>
+			<key>col_label</key>
+			<string>Exercise Image 2</string>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Workouts.plist
+   SmartTrainer
+
+   Created by Alberto Ciancaleoni on 23/05/17.
+   Copyright (c) 2017 Smart Bytes srl. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>table_name</key>
+        <string>workout</string>
+        <key>columns</key>
+        <array>
+            <dict>
+                <key>col_name</key>
+                <string>wk_name</string>
+                <key>col_type</key>
+                <string>text</string>
+                <key>col_label</key>
+                <string>Workout name</string>
+                <key>col_placeholder</key>
+                <string>insert workout name</string>
+                <key>max_char</key>
+                <integer>250</integer>
+                <key>mandatory</key>
+                <true/>
+            </dict>
+        </array>
+    </dict>
+</plist>

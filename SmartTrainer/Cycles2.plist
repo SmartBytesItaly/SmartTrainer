@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>pg_cy_lnk</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>cy_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Week Schedule</string>
+			<key>col_placeholder</key>
+			<string>Tap in to select Week Schedule</string>
+			<key>col_editable</key>
+			<false/>
+			<key>target</key>
+			<string>cycles</string>
+			<key>target_title</key>
+			<string>Week Schedule</string>
+			<key>target_key</key>
+			<string>cy_id</string>
+			<key>target_text</key>
+			<string>cy_name</string>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>cycles</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>cy_name</string>
+			<key>col_type</key>
+			<string>text</string>
+			<key>col_label</key>
+			<string>Week Schedule Description</string>
+			<key>col_placeholder</key>
+			<string>insert Week Schedule Description</string>
+			<key>max_char</key>
+			<integer>250</integer>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>

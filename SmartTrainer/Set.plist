@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>serie</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>ex_id</string>
+			<key>col_type</key>
+			<string>link</string>
+			<key>col_label</key>
+			<string>Exercise</string>
+			<key>col_placeholder</key>
+			<string>select exercise</string>
+			<key>col_editable</key>
+			<false/>
+			<key>target</key>
+			<string>esercizi</string>
+			<key>target_key</key>
+			<string>ex_id</string>
+			<key>target_text</key>
+			<string>ex_name</string>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>sets</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Sets</string>
+			<key>col_placeholder</key>
+			<string>insert sets</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>500</integer>
+			<key>step_value</key>
+			<real>1</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>reps</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Reps</string>
+			<key>col_placeholder</key>
+			<string>insert reps</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>500</integer>
+			<key>step_value</key>
+			<real>1</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>load</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Weight</string>
+			<key>col_placeholder</key>
+			<string>insert weight</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>500</integer>
+			<key>step_value</key>
+			<real>0.5</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>perc</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>MOR percentage</string>
+			<key>col_placeholder</key>
+			<string>insert Max One Rep percentage</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>1</integer>
+			<key>step_value</key>
+			<real>0.05</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>pause</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Pause (sec.)</string>
+			<key>col_placeholder</key>
+			<string>insert pause time (sec.)</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>1200</integer>
+			<key>step_value</key>
+			<real>1</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>autoinc</string>
+			<key>col_type</key>
+			<string>bool</string>
+			<key>col_label</key>
+			<string>Auto increment</string>
+			<key>mandatory</key>
+			<false/>
+			<key>col_mandatory</key>
+			<string>inc</string>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>inc</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Weight increment</string>
+			<key>col_placeholder</key>
+			<string>insert weight increment</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>50</integer>
+			<key>step_value</key>
+			<real>0.5</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

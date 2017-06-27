@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>table_name</key>
+	<string>equipment</string>
+	<key>columns</key>
+	<array>
+		<dict>
+			<key>col_name</key>
+			<string>eq_name</string>
+			<key>col_type</key>
+			<string>text</string>
+			<key>col_label</key>
+			<string>Bar Type</string>
+			<key>col_placeholder</key>
+			<string>insert Bar Type</string>
+			<key>max_char</key>
+			<integer>250</integer>
+			<key>mandatory</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>col_name</key>
+			<string>eq_weight</string>
+			<key>col_type</key>
+			<string>number</string>
+			<key>col_label</key>
+			<string>Bar weight</string>
+			<key>col_placeholder</key>
+			<string>insert Bar Weight</string>
+			<key>min_value</key>
+			<integer>0</integer>
+			<key>max_value</key>
+			<integer>100</integer>
+			<key>step_value</key>
+			<real>0.5</real>
+			<key>mandatory</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

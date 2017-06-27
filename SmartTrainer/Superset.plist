@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Superset.plist
+   SmartTrainer
+
+   Created by Alberto Ciancaleoni on 22/06/17.
+   Copyright (c) 2017 Smart Bytes srl. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>table_name</key>
+        <string>serie</string>
+        <key>columns</key>
+        <array>
+            <dict>
+                <key>col_name</key>
+                <string>superset_name</string>
+                <key>col_type</key>
+                <string>text</string>
+                <key>col_label</key>
+                <string>Superset name</string>
+                <key>col_placeholder</key>
+                <string>insert superset name</string>
+                <key>max_char</key>
+                <integer>250</integer>
+                <key>mandatory</key>
+                <true/>
+            </dict>
+            <dict>
+                <key>col_name</key>
+                <string>sets</string>
+                <key>col_type</key>
+                <string>number</string>
+                <key>col_label</key>
+                <string>Sets</string>
+                <key>col_placeholder</key>
+                <string>insert sets</string>
+                <key>min_value</key>
+                <integer>0</integer>
+                <key>max_value</key>
+                <integer>500</integer>
+                <key>step_value</key>
+                <real>1</real>
+                <key>mandatory</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>col_name</key>
+                <string>pause</string>
+                <key>col_type</key>
+                <string>number</string>
+                <key>col_label</key>
+                <string>Pause (sec.)</string>
+                <key>col_placeholder</key>
+                <string>insert pause time (sec.)</string>
+                <key>min_value</key>
+                <integer>0</integer>
+                <key>max_value</key>
+                <integer>1200</integer>
+                <key>step_value</key>
+                <real>1</real>
+                <key>mandatory</key>
+                <false/>
+            </dict>
+        </array>
+    </dict>
+</plist>
